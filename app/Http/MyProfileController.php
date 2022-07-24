@@ -37,6 +37,7 @@ class MyProfileController extends Controller
         $others = "hello world";
         return view("myprofile/show", compact('profile', 'others'));
     }
+    
     public function gallery()
     {
         $ant = "https://cdn3.movieweb.com/i/article/Oi0Q2edcVVhs4p1UivwyyseezFkHsq/1107:50/Ant-Man-3-Talks-Michael-Douglas-Update.jpg";
