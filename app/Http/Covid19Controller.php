@@ -28,6 +28,7 @@ class Covid19Controller extends Controller
         //DISPLAY ON VIEW
         return view('covid19/index', compact('covid19s'));
     }
+    
 
     /**
      * Show the form for creating a new resource.
