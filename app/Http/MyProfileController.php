@@ -25,6 +25,7 @@ class MyProfileController extends Controller
         $others = "hello world";
         return view("myprofile/edit", compact('profile', 'others'));
     }
+    
     //
     public function show($id)
     {
